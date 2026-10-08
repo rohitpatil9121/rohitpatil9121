@@ -15,24 +15,27 @@ HOST = "rohit@github"
 # (key, value). A None key continues the previous value; ("", "") is a blank line.
 LINES = [
     ("Name", "Rohit Patil"),
-    ("Now", "B.Tech Cloud Computing @ MIT ADT, Pune"),
+    ("Now", "B.Tech Cloud Computing @ MIT ADT University"),
+    ("Based", "Pune, India"),
     ("Focus", "AWS & DevOps - building real-world cloud projects"),
     ("", ""),
     ("Cloud", "AWS Lambda, API Gateway, DynamoDB, S3"),
     ("Stack", "Python, JavaScript, TypeScript"),
     (None, "WebGL / GLSL, Astro, HTML & CSS"),
-    ("AI/ML", "OpenAI Whisper, LangChain, Groq, Claude API"),
-    (None, "scikit-learn phishing & fake-news classifiers"),
+    ("AI/ML", "Python + scikit-learn, OpenAI Whisper, LangChain"),
+    (None, "LLM apps on Groq and the Claude API"),
     ("", ""),
     ("Builds", "From-scratch WebGL 3D engine (no libraries)"),
     (None, "neon-rush / orbital / rewind-heist browser games"),
     (None, "AI meeting summarizer, LeetCode hint coach"),
+    (None, "Phishing & fake-news classifiers (~98% accuracy)"),
+    (None, "Serverless URL shortener on AWS"),
 ]
 
-W, H = 490, 370
+W, H = 490, 412  # 412 matches the portrait's height at README scale
 PAD_X = 22
 KEY_W = 62
-LINE_H = 19
+LINE_H = 18.5
 BAR_H = 30
 FONT = "ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace"
 
