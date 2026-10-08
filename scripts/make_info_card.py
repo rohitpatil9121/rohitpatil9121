@@ -15,18 +15,18 @@ HOST = "rohit@github"
 # (key, value). A None key continues the previous value; ("", "") is a blank line.
 LINES = [
     ("Name", "Rohit Patil"),
-    ("Now", "B.Tech Cloud Computing @ MIT ADT University"),
-    ("Based", "Pune, India"),
+    ("Now", "B.Tech Cloud Computing @ MIT ADT, Pune"),
     ("Focus", "AWS & DevOps - building real-world cloud projects"),
     ("", ""),
     ("Cloud", "AWS Lambda, API Gateway, DynamoDB, S3"),
     ("Stack", "Python, JavaScript, TypeScript"),
     (None, "WebGL / GLSL, Astro, HTML & CSS"),
+    ("AI/ML", "OpenAI Whisper, LangChain, Groq, Claude API"),
+    (None, "scikit-learn phishing & fake-news classifiers"),
     ("", ""),
     ("Builds", "From-scratch WebGL 3D engine (no libraries)"),
     (None, "neon-rush / orbital / rewind-heist browser games"),
-    (None, "Serverless URL shortener on AWS"),
-    (None, "Phishing-email & fake-news detection (Python)"),
+    (None, "AI meeting summarizer, LeetCode hint coach"),
 ]
 
 W, H = 490, 370
