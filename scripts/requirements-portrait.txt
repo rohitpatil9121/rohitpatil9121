@@ -1,0 +1,7 @@
+# Local-only: needed when you change your photo. Not installed by the workflow.
+pillow
+numpy
+# Optional but recommended (prep_photo.py falls back to Pillow without them):
+opencv-python
+rembg
+onnxruntime
